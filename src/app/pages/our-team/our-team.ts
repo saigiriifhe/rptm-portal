@@ -70,7 +70,7 @@ International platforms in USA and Singapore. Supervised several doctoral candid
       designation: 'Counselling Division',
       name: 'Dr. Shyamala Reuben',
       qualification:
-        'Professor, Psychologist & Leadership Trainer',
+        'Assistant Professor',
       image: 'assets/images/shyamala.png',
       description: `
       Dr. Shyamala Reuben is an academician, psychologist, researcher, and leadership
