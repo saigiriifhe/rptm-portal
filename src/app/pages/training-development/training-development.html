@@ -1,0 +1,52 @@
+<!-- <section class="training-page">
+
+  <h1>Training & Development</h1>
+
+  <div
+    class="program-card"
+    *ngFor="let program of programs"
+    [routerLink]="program.route">
+
+    <h2>{{ program.title }}</h2>
+
+    <p>{{ program.date }}</p>
+
+  </div>
+
+</section> -->
+
+<section class="training-page">
+
+  <div class="page-header">
+    <h1>Training & Development</h1>
+    <p>
+      Faculty Induction & Orientation Programs
+    </p>
+  </div>
+
+  <div class="program-container">
+
+    <div
+      class="program-card"
+      *ngFor="let program of programs"
+      [routerLink]="program.route">
+
+      <div class="program-content">
+
+        <h2>{{ program.title }}</h2>
+
+        <p class="date">
+          {{ program.date }}
+        </p>
+
+        <span class="view-btn">
+          View Details →
+        </span>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>

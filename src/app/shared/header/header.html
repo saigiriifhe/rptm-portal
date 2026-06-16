@@ -1,0 +1,26 @@
+<header class="header">
+
+  <div class="container">
+
+    <div class="logo-section">
+      <h1>RPTM</h1>
+      <p>Resources Planning & Talent Management</p>
+    </div>
+
+    <nav class="navbar">
+
+      <a
+        *ngFor="let menu of menus"
+        [routerLink]="menu.route"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }">
+
+        {{ menu.title }}
+
+      </a>
+
+    </nav>
+
+  </div>
+
+</header>
