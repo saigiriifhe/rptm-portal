@@ -43,7 +43,7 @@ export class Header {
       route: '/academic-infrastructure'
     },
     {
-      title: 'Enable Digitalization',
+      title: 'IT Infrastructure',
       route: '/enable-digitalization'
     },
     {

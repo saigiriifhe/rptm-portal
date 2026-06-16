@@ -22,6 +22,11 @@ export class OurTeam {
       Project Management, Administration, Teaching and Research.
       His research covers IT, Cloud Computing, Project Management,
       Operations Management, Knowledge Management and HR Management.
+      Has publications in both national and international
+journals on the subjects of Physics, IT and Management Science. Presented papers
+in many national conferences at IITs, IIMs and other reputed institutes and also at
+International platforms in USA and Singapore. Supervised several doctoral candidates for their Ph.Ds
+
       `
     },
 
@@ -37,6 +42,10 @@ export class OurTeam {
       Corporate and Academic Institutions. He has held instructional,
       managerial and strategic leadership roles and specializes in
       Information Technology, Operations, Quality and Project Management.
+       He is experienced in planning, controlling and executing projects
+     related to Mobile Communication and Infrastructure Services and Knowledge
+     Management projects. His educational qualifications include B.E (Electrical Engg.),
+     M.E (Guided Missile Technology) and PGDBM.
       `
     },
 
@@ -47,10 +56,13 @@ export class OurTeam {
         'MBA & M.Phil. in Development Economics',
       image: 'assets/images/sravana-kumar.png',
       description: `
-      Associated with ICFAI since 2003 and the University since 2010.
-      He worked with Case Research Center, IBS Hyderabad and later
-      with Accreditation Departments. Coordinated institutional reports,
-      NIRF, NAAC, UGC and MHRD submissions and data aggregation activities.
+      Associated with Icfai since 2003 and the university since 2010. Developed cases at
+      Case Research Center, IBS Hyderabad and later was with accreditations department
+      since 2012. Liaised with the department to prepare institutional statutory reports,
+      collect and compile data for NIRF and other ranking and rating agencies. Coordinated
+      report preparation and data aggregation for MHRD, UGC and NAAC. His education
+      qualifications are MBA & M.Phil. in Development Economics, CESS, Hyderabad.
+
       `
     },
 
@@ -61,10 +73,11 @@ export class OurTeam {
         'Professor, Psychologist & Leadership Trainer',
       image: 'assets/images/shyamala.png',
       description: `
-      Dr. Shyamala Rouben has over 20 years of experience in higher education,
-      human capital development and organizational behaviour. Her expertise
-      includes counselling, talent development, mentoring, behavioural sciences,
-      leadership capacity building and employee wellbeing.
+      Dr. Shyamala Reuben is an academician, psychologist, researcher, and leadership
+trainer with over 20 years of experience in higher education, human resource development,
+organizational behaviour, counselling, and talent management. Her educational qualifications include Ph.D. in Sociology
+and M.Sc. in Psychology.  As a faculty member, researcher, and leadership facilitator, Dr. Reuben integrates
+psychology, organizational development, and human values to develop resilient individuals, effective teams, and leaders.
       `
     }
   ];
