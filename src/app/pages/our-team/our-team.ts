@@ -91,12 +91,12 @@ psychology, organizational development, and human values to develop resilient in
     {
       name: 'Mr. P. Saigiri',
       role: 'Web Developer',
-      image: 'assets/images/dev2.png'
+      image: 'assets/images/dev6.png'
     },
     {
       name: 'Mr. S. Sriharivas',
       role: 'Web Developer',
-      image: 'assets/images/dev3.jpg'
+      image: 'assets/images/dev3.png'
     }
   ];
 
