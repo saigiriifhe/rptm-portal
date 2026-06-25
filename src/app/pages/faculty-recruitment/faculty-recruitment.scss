@@ -1,114 +1,204 @@
-.faculty-recruitment {
+// .recruitment-page {
+//   width: 90%;
+//   max-width: 1200px;
+//   margin: 50px auto;
+// }
+
+// .content-card {
+//   background: rgba(255, 255, 255, 0.96);
+//   border-radius: 15px;
+//   padding: 40px;
+//   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+//   border-top: 5px solid #003366;
+// }
+
+// .content-card h1 {
+//   text-align: center;
+//   color: #003366;
+//   margin-bottom: 35px;
+// }
+
+// .email-box {
+//   background: #f4f8fc;
+//   border-left: 5px solid #003366;
+//   padding: 25px;
+//   border-radius: 10px;
+//   margin-bottom: 35px;
+// }
+
+// .email-box h3 {
+//   color: #003366;
+//   margin-bottom: 15px;
+// }
+
+// .email-box p {
+//   line-height: 1.8;
+//   margin-bottom: 15px;
+//   color: #444;
+// }
+
+// .email-box a {
+//   display: inline-block;
+//   background: #003366;
+//   color: #fff;
+//   padding: 12px 22px;
+//   border-radius: 6px;
+//   text-decoration: none;
+//   font-weight: 600;
+//   transition: 0.3s;
+// }
+
+// .email-box a:hover {
+//   background: #00509e;
+// }
+
+// .section {
+//   margin-top: 35px;
+// }
+
+// .section h2 {
+//   color: #003366;
+//   border-left: 5px solid #003366;
+//   padding-left: 12px;
+//   margin-bottom: 18px;
+// }
+
+// .section p {
+//   color: #444;
+//   line-height: 1.9;
+//   text-align: justify;
+//   margin-bottom: 15px;
+// }
+
+// strong {
+//   color: #003366;
+// }
+
+// @media (max-width: 768px) {
+
+//   .recruitment-page {
+//     width: 95%;
+//   }
+
+//   .content-card {
+//     padding: 25px;
+//   }
+
+//   .content-card h1 {
+//     font-size: 2rem;
+//   }
+
+//   .section h2 {
+//     font-size: 1.3rem;
+//   }
+
+//   .email-box {
+//     padding: 20px;
+//   }
+
+//   .email-box a {
+//     width: 100%;
+//     text-align: center;
+//   }
+// }
+
+.recruitment-page {
   width: 90%;
   max-width: 1200px;
-  margin: 40px auto;
+  margin: 50px auto;
 }
 
-.page-header {
-  text-align: center;
-  margin-bottom: 40px;
-
-  h1 {
-    color: #003366;
-    margin-bottom: 10px;
-  }
-
-  p {
-    color: #666;
-  }
-}
-
-.recruitment-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 25px;
-}
-
-.recruitment-card {
-  background: white;
-  padding: 25px;
-  border-radius: 12px;
-
-  text-align: center;
-
-  border-top: 5px solid #003366;
-
-  box-shadow: 0 4px 12px rgba(0,0,0,.08);
-
-  transition: 0.3s;
-
-  &:hover {
-    transform: translateY(-5px);
-  }
-
-  h3 {
-    color: #003366;
-    margin-bottom: 15px;
-  }
-
-  span {
-    font-size: 2rem;
-    font-weight: bold;
-    color: #222;
-  }
-}
-
-.total-card {
-  margin-top: 40px;
-
-  background: linear-gradient(
-    135deg,
-    #003366,
-    #00509e
-  );
-
-  color: white;
-
-  text-align: center;
-
-  padding: 35px;
+.content-card {
+  background: rgba(255, 255, 255, 0.96);
+  padding: 45px;
   border-radius: 15px;
-
-  .total-count {
-    font-size: 4rem;
-    font-weight: bold;
-    margin: 15px 0;
-  }
-
-  p {
-    margin-top: 10px;
-    opacity: 0.9;
-  }
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  border-top: 6px solid #003366;
 }
 
-@media (max-width: 992px) {
-  .recruitment-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
+.content-card h1 {
+  text-align: center;
+  color: #003366;
+  margin-bottom: 40px;
+  font-size: 2.2rem;
+}
+
+.email-box {
+  background: #f4f8fc;
+  border-left: 5px solid #003366;
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 35px;
+}
+
+.email-box h3 {
+  color: #003366;
+  margin-bottom: 15px;
+}
+
+.email-box p {
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.email-box a {
+  display: inline-block;
+  background: #003366;
+  color: #fff;
+  padding: 12px 22px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.email-box a:hover {
+  background: #0055a5;
+}
+
+.section {
+  margin-top: 35px;
+}
+
+.section h2 {
+  color: #003366;
+  border-left: 5px solid #003366;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+
+.section p {
+  line-height: 1.9;
+  color: #444;
+  text-align: justify;
+  margin-bottom: 15px;
 }
 
 @media (max-width: 768px) {
-  .recruitment-grid {
-    grid-template-columns: 1fr;
+
+  .recruitment-page {
+    width: 95%;
   }
 
-  .total-card .total-count {
-    font-size: 3rem;
+  .content-card {
+    padding: 25px;
   }
-}
 
-.status-date {
-  display: inline-block;
+  .content-card h1 {
+    font-size: 1.8rem;
+  }
 
-  margin-top: 15px;
+  .section h2 {
+    font-size: 1.3rem;
+  }
 
-  background: #003366;
-  color: white;
+  .email-box {
+    padding: 20px;
+  }
 
-  padding: 8px 18px;
-
-  border-radius: 25px;
-
-  font-size: 14px;
-  font-weight: 500;
+  .email-box a {
+    width: 100%;
+    text-align: center;
+  }
 }

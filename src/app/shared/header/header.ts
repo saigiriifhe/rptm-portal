@@ -35,7 +35,7 @@ export class Header {
       route: '/our-team'
     },
     {
-      title: 'Faculty Recruitment',
+      title: 'Recruitment process',
       route: '/faculty-recruitment'
     },
     {

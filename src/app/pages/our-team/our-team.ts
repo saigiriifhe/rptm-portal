@@ -14,6 +14,7 @@ export class OurTeam {
       designation: 'Chief, RPTM',
       name: 'Prof. (Dr.) Jigeesh Nasina',
       qualification: 'Ph.D. (Management Science) & Ph.D. (Physics)',
+      postion:'',
       image: 'assets/images/jigeesh-sir.png',
       description: `
       He has extensive experience in academic leadership and management,
@@ -35,6 +36,7 @@ International platforms in USA and Singapore. Supervised several doctoral candid
       name: 'Gp. Capt. N. Siva Prasad (Rtd)',
       qualification:
         'B.E. (Electrical Engineering), M.E. (Guided Missile Technology), PGDBM',
+        postion:'',
       image: 'assets/images/siva-prasad.png',
       description: `
       Commissioned in 1979, Gp. Capt. Siva Prasad (Rtd.) has more than
@@ -44,8 +46,7 @@ International platforms in USA and Singapore. Supervised several doctoral candid
       Information Technology, Operations, Quality and Project Management.
        He is experienced in planning, controlling and executing projects
      related to Mobile Communication and Infrastructure Services and Knowledge
-     Management projects. His educational qualifications include B.E (Electrical Engg.),
-     M.E (Guided Missile Technology) and PGDBM.
+     Management projects. 
       `
     },
 
@@ -54,14 +55,14 @@ International platforms in USA and Singapore. Supervised several doctoral candid
       name: 'B. Sravana Kumar',
       qualification:
         'MBA & M.Phil. in Development Economics',
+        postion:'',
       image: 'assets/images/sravana-kumar.png',
       description: `
       Associated with Icfai since 2003 and the university since 2010. Developed cases at
       Case Research Center, IBS Hyderabad and later was with accreditations department
       since 2012. Liaised with the department to prepare institutional statutory reports,
       collect and compile data for NIRF and other ranking and rating agencies. Coordinated
-      report preparation and data aggregation for MHRD, UGC and NAAC. His education
-      qualifications are MBA & M.Phil. in Development Economics, CESS, Hyderabad.
+      report preparation and data aggregation for MHRD, UGC and NAAC. 
 
       `
     },
@@ -70,13 +71,13 @@ International platforms in USA and Singapore. Supervised several doctoral candid
       designation: 'Counselling Division',
       name: 'Dr. Shyamala Reuben',
       qualification:
-        'Assistant Professor',
+        `Ph.D. (Sociology)    M.Sc. (Psychology)  `,
+        position:' Assistant Professor',
       image: 'assets/images/shyamala.png',
       description: `
       Dr. Shyamala Reuben is an academician, psychologist, researcher, and leadership
 trainer with over 20 years of experience in higher education, human resource development,
-organizational behaviour, counselling, and talent management. Her educational qualifications include Ph.D. in Sociology
-and M.Sc. in Psychology.  As a faculty member, researcher, and leadership facilitator, Dr. Reuben integrates
+organizational behaviour, counselling, and talent management.   As a faculty member, researcher, and leadership facilitator, Dr. Reuben integrates
 psychology, organizational development, and human values to develop resilient individuals, effective teams, and leaders.
       `
     }
@@ -101,3 +102,6 @@ psychology, organizational development, and human values to develop resilient in
   ];
 
 }
+
+
+//Her educational qualifications include Ph.D. in Sociology and M.Sc. in Psychology.

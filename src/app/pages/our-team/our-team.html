@@ -2,9 +2,7 @@
 
   <h1 class="page-title">Our Team</h1>
 
-  <div
-    class="member-card"
-    *ngFor="let member of teamMembers">
+  <div class="member-card" *ngFor="let member of teamMembers">
 
     <div class="member-content">
 
@@ -14,6 +12,9 @@
 
       <h4>{{ member.qualification }}</h4>
 
+      <h5 class="position" *ngIf="member.position">
+        {{ member.position }}
+      </h5>
       <p>
         {{ member.description }}
       </p>
@@ -21,9 +22,7 @@
     </div>
 
     <div class="member-image">
-      <img
-        [src]="member.image"
-        [alt]="member.name">
+      <img [src]="member.image" [alt]="member.name">
     </div>
 
   </div>
@@ -34,13 +33,9 @@
 
     <div class="developer-grid">
 
-      <div
-        class="developer-card"
-        *ngFor="let developer of developers">
+      <div class="developer-card" *ngFor="let developer of developers">
 
-        <img
-          [src]="developer.image"
-          [alt]="developer.name" >
+        <img [src]="developer.image" [alt]="developer.name">
 
         <h4>{{ developer.name }}</h4>
 
