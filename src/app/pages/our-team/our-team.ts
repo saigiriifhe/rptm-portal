@@ -35,7 +35,7 @@ International platforms in USA and Singapore. Supervised several doctoral candid
       designation: 'Dy. Chief, RPTM',
       name: 'Gp. Capt. N. Siva Prasad (Rtd)',
       qualification:
-        'B.E. (Electrical Engineering), M.E. (Guided Missile Technology), PGDBM',
+        'B.E. (Electrical Engineering), M.E. (Guided Missile Technology) & PGDBM',
         postion:'',
       image: 'assets/images/siva-prasad.png',
       description: `
@@ -54,7 +54,7 @@ International platforms in USA and Singapore. Supervised several doctoral candid
       designation: 'Dy. Registrar, Coordination',
       name: 'B. Sravana Kumar',
       qualification:
-        'MBA & M.Phil. in Development Economics',
+        'M.B.A & M.Phil.  (Development Economics)',
         postion:'',
       image: 'assets/images/sravana-kumar.png',
       description: `
@@ -71,7 +71,7 @@ International platforms in USA and Singapore. Supervised several doctoral candid
       designation: 'Counselling Division',
       name: 'Dr. Shyamala Reuben',
       qualification:
-        `Ph.D. (Sociology)    M.Sc. (Psychology)  `,
+        `Ph.D. (Sociology) &  M.Sc. (Psychology)  `,
         position:' Assistant Professor',
       image: 'assets/images/shyamala.png',
       description: `
